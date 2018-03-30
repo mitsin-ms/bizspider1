@@ -1,0 +1,89 @@
+.topmargin {
+    width:auto;
+    height:10px;
+    background-color:azure;
+}
+
+.logo {
+/*
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:50%;
+    height:100px;
+*/
+    height:100px;
+    width:100%;
+    background-image:url(../images/logo1.png);
+    background-color:darkslategray ;
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    
+}
+
+.lform {
+    padding-left : 20px;
+    background-color:goldenrod;
+    width:100%;
+    height: 1000px;
+}
+
+.hr1 {
+    color:black;
+    height:4px;
+}
+
+.goldenbrown1 {
+    background-color:goldenrod;
+    width:100%;
+}
+
+.goldenbrown {
+    background-color:goldenrod  ;
+    width:100%;
+    //height:750px;
+}
+
+.label1 {
+    margin-left:0px;
+    width : 250px;
+    font-weight:700;
+}
+
+.text1 {
+    width: 200px;
+}
+
+
+.text1v {
+    width: 200px;
+    font-weight:700;
+    color:brown;
+    font-size:18px;
+    font-family:cursive;
+    vertical-align:middle;
+}
+
+.text1v1 {
+    width: 600px;
+    font-weight:700;
+    color:brown;
+    font-size:18px;
+    font-family:cursive;
+    vertical-align:middle;
+}
+
+
+.text3 {
+    width: 100px;
+}
+
+
+.label2 {
+    margin-left:120px;
+    width:130px;
+    font-weight: 700;
+}

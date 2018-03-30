@@ -1,0 +1,314 @@
+#morespaceinnavbar {
+    padding-left:1px;
+}
+.navbar-nav > .nav-item > a:hover{
+    color: red !important;
+}
+
+.nav-item {
+    margin-left:7px;
+    color : white;
+    font-weight:bold;
+
+}
+
+.post {
+    border: 2px solid black;
+}
+
+.space0 {
+    margin-top:20px;
+}
+
+.space1 {
+    margin-top:120px;
+    
+}
+
+
+.buttonsspace {
+    margin-right:50px;
+}
+
+
+.fullwidthimage {
+    background-image:url("../images/main.jpg");
+    width:100%;
+    height:853px;
+    background-position:center;
+    background-size:cover;
+    color: #cfcfcf;
+    background-attachment:fixed;
+    
+    
+/*
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+*/
+
+    
+}
+
+.letters{
+ text-align:center;
+ font-weight:bold;
+ color:white;
+}
+.lettersh1{
+    text-align:center;
+    font-weight:1400;
+    color:darkkhaki;
+}
+
+.lettersh11{
+    text-align:center;
+    color : white;
+    font-weight:bold;
+}
+
+.lettersh12{
+    text-align:center;
+    color:black;
+    font-weight:bold;
+}
+
+.lettersh13{
+    color:orange;
+    font-weight:bold;
+    text-align:center;
+}
+
+.lettersh14{
+    text-align:center;
+    color:black;
+    font-size:18px;
+    
+}
+
+.para3 {
+    margin-top:40px;
+    margin-left:30px;
+    margin-botton:40px;
+}
+
+para31 {
+    margin-top:15px;
+}
+
+.rcent {
+    text-align:center;
+}
+
+.fa {
+    font-size:36px !important;
+    color:red; !important;
+}
+
+.bold {
+    font-weight:bold;
+    font-size:20px;
+}
+.dashmargintop {
+
+}
+
+.pagecolor {
+    background-color:cadetblue;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+}
+
+.post {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.pimage {
+margin-left:auto;
+margin-right:auto;
+}
+
+.rcent1 {
+    margin-top:1px;!important
+    word-spacing:20px;
+}
+
+.para4 {
+    margin-top:40px;
+    background-color:darkolivegreen;
+    width:100%;
+    height:1200px;
+    
+    
+}
+
+.para4a {
+    margin-top:40px;
+    margin-left:30px;
+    background-color:darkolivegreen;
+    width:100%;
+    height:400px;
+    margin-right:30px;
+    
+    
+}
+
+.para41 {
+    margin-top:40px;
+    height:100px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:18px;
+    color:aliceblue;
+    }
+.lettersh121{
+    text-align:center;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    padding-top:30px;
+    letter-spacing:2px;
+}
+
+.lettersh131{
+    padding-top:30px;
+    color:orange;
+    font-weight:bold;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:2px;
+}
+
+.imgmargin {
+    margin-top:40px; !important
+    padding-top:80px; !important
+    
+}
+
+================ hover effect in images =========================
+
+.card-img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.card-img-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255,255,255,0.3);
+  opacity: 0;
+  transition: opacity .25s;
+}
+.card-img-wrap img {
+  transition: transform .25s;
+  width: 100%;
+}
+.imghover{
+    
+}   
+}
+.card-img-wrap:hover:after {
+  opacity: 1;
+}
+==================================================================
+
+.imglmargin {
+    margin-left:30px;
+    margin-right:30px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.para5 {
+    margin-top:40px;
+    background-color:beige;
+    width:100%;
+    height:1200px;
+}
+
+.pfont1 {
+    font-size:20px;
+}
+
+.cent {
+    text-align:center;
+}
+
+.para6 {
+    margin-top:30px;
+    height:500px;
+    background-color:cornsilk;
+}
+
+.para7 {
+    margin-top:30px;
+    
+    background-color:azure;
+}
+
+.topmargin {
+    margin-top:30px;
+    
+}
+
+.carouselmit {
+    margin-left:140px;
+    margin-right:140px;
+    padding-left:100px;
+    padding-right:100px;
+    height:400px;
+}
+
+
+
+.fleft {
+    float:left;
+}
+
+.para8 {
+    
+    background-image:url(../images/img-2.jpg);
+    background-color:black;
+    height:400px;
+}
+
+.margin8 {
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.roundedfa {
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    box-shadow: 2px 2px 2px 2px gray;
+    color:balck;
+    background-color:bisque;
+    line-height:80px;
+    vertical-align:middle;
+    float:left;
+}
+
+
+.para9 {
+    margin-top:30px;
+    background-color:azure;
+    height:600px;
+}
+
+.map1 {
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:normal;
+}
+
+a[id]:before {
+    content:"";
+    display:block;
+    height:50px;
+    margin:-130px 0 0;
+}

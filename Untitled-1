@@ -1,0 +1,24 @@
+function ajaxsubmit() {
+    //console.log($);
+    //alert("in ajax submit");
+    var mvalidate = false;
+    mvalidate = validateForm();
+    if(!mvalidate) {
+    alert('the value of validate is:'+mvalidate);
+    return;
+    }
+    
+    $.ajax({
+            type: "POST",
+            url: "floginposta.php",
+            data: {name:flname1,email:flemail1,password:flpassword1},
+            dataType: "JSON",
+            success: function(data) {
+             $("#message").html(data);
+            $("p").addClass("alert alert-success");
+            },
+            error: function(err) {
+            alert(err);
+            }
+        });     
+}
